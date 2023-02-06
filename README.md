@@ -149,7 +149,7 @@ matching Python source file changes.
 | list[T]                         | Array[T]                      |
 | tuple[T, U]                     | [T, U]                        |
 | dict[T, U]                      | Record<T, U>                  |
-| T \| \U                         | T \| U                        |
+| T \|  U                         | T \| U                        |
 | Optional[T]                     | T \| null                     |
 | Union[T, U, V]                  | T \| U \| V                   |
 | Literal['foo', 'bar']           | "foo" \| "bar"                |
