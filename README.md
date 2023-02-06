@@ -23,8 +23,10 @@ cabal install
 
 ## Motivation
 
-This project was inspired by `py-ts-interfaces`, which states the
+This project was inspired by [py-ts-interfaces][2], which states the
 motivation perfectly:
+
+[2]:https://github.com/Syndallic/py-to-ts-interfaces
 
 > In web applications where Python is used in the backend and
 > TypeScript is used in the frontend, it is often the case that the
