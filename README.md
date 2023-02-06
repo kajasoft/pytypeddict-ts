@@ -26,7 +26,7 @@ cabal install
 This project was inspired by [py-ts-interfaces][2], which states the
 motivation perfectly:
 
-[2]:https://github.com/Syndallic/py-to-ts-interfaces
+[2]:https://github.com/cordero/py-to-ts-interfaces
 
 > In web applications where Python is used in the backend and
 > TypeScript is used in the frontend, it is often the case that the
@@ -152,6 +152,15 @@ We haven't implemented support for translations beyond these as they
 suffice for our needs, but if you have a particular translation need,
 open an issue. Depending on our bandwidth, we may try to implement it.
 If you know Haskell, of course, you are welcome to contribute.
+
+
+## References
+
+* [py-ts-interfaces][cordero] The original py-ts-interfaces
+* [py-ts-interfaces][syndallic] A fork extension of ps-ts-interfaces 
+
+[cordero]:https://github.com/cs-cordero/py-ts-interfaces
+[syndallic]:https://github.com/Syndallic/py-to-ts-interfaces
 
 ## License
 
