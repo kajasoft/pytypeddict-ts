@@ -165,7 +165,7 @@ If you know Haskell, of course, you are welcome to contribute.
 ## References
 
 * [py-ts-interfaces][cordero] The original py-ts-interfaces
-* [py-ts-interfaces][syndallic] A fork extension of ps-ts-interfaces 
+* [py-ts-interfaces][syndallic] A fork extension of py-ts-interfaces 
 
 [cordero]:https://github.com/cs-cordero/py-ts-interfaces
 [syndallic]:https://github.com/Syndallic/py-to-ts-interfaces
