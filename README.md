@@ -44,9 +44,9 @@ motivation perfectly:
 > This library aims to have a single source of truth that describes
 > the shape of the payload between the backend and the frontend.
 
-We created `pytypeddict-ts` to translate Python
-[TypedDicts][typeddict] across the Python-TypeScript boundary.
-`py-ts-interfaces` translates [Data Classes][dataclass] to TypeScript, but not
+We created `pytypeddict-ts` to translate Python [TypedDict][typeddict]
+definitions across the Python-TypeScript boundary.  `py-ts-interfaces`
+translates [Data Classes][dataclass] to TypeScript, but not
 TypedDicts.
 
 [typeddict]:https://peps.python.org/pep-0589/
