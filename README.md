@@ -45,7 +45,7 @@ motivation perfectly:
 > the shape of the payload between the backend and the frontend.
 
 We created `pytypeddict-ts` to translate Python TypedDicts across the
-Python-TypeScript boundary. `py-ts-interfaces` translates Dataclasses
+Python-TypeScript boundary. `py-ts-interfaces` translates Data Classes
 to TypeScript, but not TypedDicts.
 
 We're using `pytypeddict-ts` in production on the streaming search
