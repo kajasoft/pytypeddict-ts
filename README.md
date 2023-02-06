@@ -44,11 +44,9 @@ motivation perfectly:
 > This library aims to have a single source of truth that describes
 > the shape of the payload between the backend and the frontend.
 
-We created `pytypeddict-ts` because we prefer lighter-weight Python
-TypedDicts to define our types that cross the Python-TypeScript
-boundary, whereas the authors of `py-ts-interfaces` opt for
-Dataclasses. Thus `py-ts-interfaces` works for Dataclasses, whereas
-`pytypeddict-ts` works for TypedDicts.
+We created `pytypeddict-ts` to translate Python TypedDicts across the
+Python-TypeScript boundary. `py-ts-interfaces` translates Dataclasses
+to TypeScript, but not TypedDicts.
 
 
 ## Usage
