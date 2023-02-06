@@ -122,8 +122,8 @@ e.g.,
 
     #!/bin/bash
     {
-      sed -n '/^ContentType/ p' types.py 
       sed -n '/^TimeStamp/ p' types.py 
+      sed -n '/^ContentType/ p' types.py 
       sed -n '/^class StreamingService/,/^ *$/ p' types.py 
       sed -n '/^class Title/,/^ *$/ p' types.py 
     } | pytypeddict-ts
