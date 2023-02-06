@@ -78,7 +78,7 @@ Example input `types.py`:
         runtime: NotRequired[int | None] # comment
         title: str
         year: int | None
-        streaming_services: list[StreamingService)
+        streaming_services: list[StreamingService]
         added_to_streaming: TimeStamp | None
 
 Output `types.ts`:
