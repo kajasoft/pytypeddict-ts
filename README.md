@@ -26,7 +26,7 @@ cabal install
 This project was inspired by [py-ts-interfaces][2], which states the
 motivation perfectly:
 
-[2]:https://github.com/cs-cordero/py-to-ts-interfaces
+[2]:https://github.com/cs-cordero/py-ts-interfaces
 
 > In web applications where Python is used in the backend and
 > TypeScript is used in the frontend, it is often the case that the
