@@ -1,0 +1,56 @@
+cabal-version:      2.4
+name:               pytypeddict-ts
+version:            0.1.0.0
+
+synopsis: Command-line tool to translate Python TypedDict types into TypeScript types.
+
+description: Command-line tool to translate Python TypedDict types into TypeScript types.
+
+bug-reports:        https://github.com/kajasoft/pytypeddict-ts
+
+license:            MIT
+author:             Kaja Software
+maintainer:         https://github.com/kajasoft
+
+copyright:          2023 Kaja Software
+-- category:
+extra-source-files: CHANGELOG.md
+
+library
+    exposed-modules:  Py2Ts.Types
+                    , Py2Ts.PyParse
+                    , Py2Ts.Conversion
+                    , Py2Ts.Print
+    default-extensions: OverloadedStrings
+    build-depends:    base ^>= 4.16
+                    , megaparsec ^>= 9.0.0
+                    , text
+    hs-source-dirs:   .
+    default-language: Haskell2010
+
+executable pytypeddict-ts
+    main-is:          Main.hs
+    default-extensions: OverloadedStrings
+    build-depends:
+        base  ^>=4.16
+      , pytypeddict-ts
+      , text
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+
+test-suite pytypeddict-ts-tests
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      tests
+  main-is:             Spec.hs
+  other-modules:       Py2TsSpec
+  default-language:    Haskell2010
+  build-tool-depends:  hspec-discover:hspec-discover
+  build-depends:       base
+                     , text
+                     , hspec
+                     , megaparsec
+                     -- , QuickCheck
+                     , pytypeddict-ts
+
+
