@@ -1,13 +1,13 @@
 {-# LANGUAGE OverloadedStrings   #-}
 {-# LANGUAGE ScopedTypeVariables #-}
 
-module Py2TsSpec where
+module PyTypedDictTsSpec where
 import           Control.Exception           (evaluate)
 import           Control.Monad               ((<=<), (=<<), forM, join)
 import           Data.Text                   (Text)
 import qualified Data.Text                   as T
-import           Py2Ts.PyParse
-import           Py2Ts.Types
+import           PyTypedDictTs.PyParse
+import           PyTypedDictTs.Types
 import qualified Text.Megaparsec
 import           Test.Hspec
 import Data.List.NonEmpty (NonEmpty(..))

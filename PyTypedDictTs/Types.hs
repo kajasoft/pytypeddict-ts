@@ -1,4 +1,4 @@
-module Py2Ts.Types where
+module PyTypedDictTs.Types where
 import Data.Text (Text)
 import Data.List.NonEmpty (NonEmpty)
 

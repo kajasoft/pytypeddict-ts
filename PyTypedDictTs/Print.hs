@@ -1,6 +1,6 @@
-module Py2Ts.Print where
-import Py2Ts.Types
-import Py2Ts.Conversion
+module PyTypedDictTs.Print where
+import PyTypedDictTs.Types
+import PyTypedDictTs.Conversion
 import Data.Text (Text, pack, unpack)
 import qualified Data.Text as T
 import Data.List.NonEmpty (toList)

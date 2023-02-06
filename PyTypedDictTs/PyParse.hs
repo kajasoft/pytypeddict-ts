@@ -1,5 +1,5 @@
-module Py2Ts.PyParse where
-import Py2Ts.Types (PyType(..))
+module PyTypedDictTs.PyParse where
+import PyTypedDictTs.Types (PyType(..))
 import           Text.Megaparsec hiding (parse)
 import qualified Text.Megaparsec
 import           Text.Megaparsec.Char

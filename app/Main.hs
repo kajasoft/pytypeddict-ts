@@ -1,7 +1,7 @@
 module Main where
-import Py2Ts.PyParse (parseTypes, pType)
-import Py2Ts.Conversion  (convertPy)
-import Py2Ts.Print (printTs)
+import PyTypedDictTs.PyParse (parseTypes, pType)
+import PyTypedDictTs.Conversion  (convertPy)
+import PyTypedDictTs.Print (printTs)
 import Data.Text (Text)
 import qualified Data.Text.IO as T
 

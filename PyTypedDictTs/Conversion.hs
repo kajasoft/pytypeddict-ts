@@ -1,5 +1,5 @@
-module Py2Ts.Conversion where
-import Py2Ts.Types
+module PyTypedDictTs.Conversion where
+import PyTypedDictTs.Types
 import Control.Arrow (second)
 
 
