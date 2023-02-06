@@ -68,10 +68,6 @@ file. So we write a more elaborate shell script to achieve this, e.g.,
     sed -n '/^class ServiceInfo/,/^ *$/ p' ./app/types.py | pytypeddict-ts
     sed -n '/^class TitleDict/,/^ *$/ p' ./app/types.py | pytypeddict-ts
 
-    cat <<END
-    export type TitleHit = TitleDict;
-    END
-
 
 
 
