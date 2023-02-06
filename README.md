@@ -44,9 +44,13 @@ motivation perfectly:
 > This library aims to have a single source of truth that describes
 > the shape of the payload between the backend and the frontend.
 
-We created `pytypeddict-ts` to translate Python TypedDicts across the
-Python-TypeScript boundary. `py-ts-interfaces` translates Data Classes
-to TypeScript, but not TypedDicts.
+We created `pytypeddict-ts` to translate Python
+[TypedDicts][typeddict] across the Python-TypeScript boundary.
+`py-ts-interfaces` translates [Data Classes][dataclass] to TypeScript, but not
+TypedDicts.
+
+[typeddict]:https://peps.python.org/pep-0589/
+[dataclass]:https://docs.python.org/3/library/dataclasses.html
 
 We're using `pytypeddict-ts` in production on the streaming search
 engine [instantwatcher.com][3], which has a Django backend and
