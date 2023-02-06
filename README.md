@@ -124,6 +124,27 @@ e.g.,
     } | pytypeddict-ts
 
 
+## Supported Type Mappings
+
+| Python                          | Typescript                    |
+|:-------------------------------:|:-----------------------------:|
+| None                            | null                          |
+| str                             | string                        |
+| int                             | number                        |
+| float                           | number                        |
+| bool                            | boolean                       |
+| list[T]                         | Array[T]                      |
+| tuple[T, U]                     | [T, U]                        |
+| dict[T, U]                      | Record<T, U>                  |
+| Optional[T]                     | T \| null                     |
+| Union[T, U, V]                  | T \| U \| V                   |
+| Literal['foo', 'bar']           | "foo" \| "bar"                |
+
+
+We haven't implemented support for translations beyond these as they
+suffice for our needs, but if you have a particular translation need,
+open an issue. Depending on our bandwidth, we may try to implement it.
+If you know Haskell, of course, you are welcome to contribute.
 
 ## License
 
