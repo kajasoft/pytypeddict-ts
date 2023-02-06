@@ -259,27 +259,3 @@ sc = L.space (void $ some (char ' ' <|> char '\t'))
              empty
 
 
-{-|
-
-TimeStamp = int
-
-class MeilisearchTitleDict(TypedDict):
-    actors: list[str]
-    age: int | None
-    alpha_title: str
-    content_type: ContentType
-    countries: list[str]
-    episode_runtimes: NotRequired[list[int]]
-    episodes: list['MeilisearchTitleDict']
-    first_air_year: NotRequired[int | None]
-    genre_names: list[int]
-    id: int
-    image_lg: str | None
-    image_md: str | None
-    image_sm: str | None
-    imdb_id: str
-
--}
-
-
-

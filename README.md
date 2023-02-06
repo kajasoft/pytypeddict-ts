@@ -141,9 +141,11 @@ e.g.,
 | list[T]                         | Array[T]                      |
 | tuple[T, U]                     | [T, U]                        |
 | dict[T, U]                      | Record<T, U>                  |
+| T \| \U                         | T \| U                        |
 | Optional[T]                     | T \| null                     |
 | Union[T, U, V]                  | T \| U \| V                   |
 | Literal['foo', 'bar']           | "foo" \| "bar"                |
+| myfield: NotRequired[T]         | myfield?: T                   |
 
 
 We haven't implemented support for translations beyond these as they
