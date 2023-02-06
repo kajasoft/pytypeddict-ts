@@ -47,7 +47,7 @@ motivation perfectly:
 We created `pytypeddict-ts` to translate Python [TypedDict][typeddict]
 definitions across the Python-TypeScript boundary.  `py-ts-interfaces`
 translates [Data Classes][dataclass] to TypeScript, but not
-TypedDicts.
+TypedDict.
 
 [typeddict]:https://peps.python.org/pep-0589/
 [dataclass]:https://peps.python.org/pep-0557/
