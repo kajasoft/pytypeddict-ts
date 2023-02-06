@@ -1,7 +1,7 @@
 # pytypeddict-ts
 ### Python TypedDicts to TypeScript translator
 
-Translate Python 3.11 TypedDict definitions into TypeScript type
+Translate Python 3.10+ TypedDict definitions into TypeScript type
 definitions from the command line.
 
 ## Installation
@@ -56,7 +56,7 @@ TypeScript frontend code for search.
 
 ## Usage
 
-Basic usage entails a Unix pipeline:
+Basic usage:
 
     cat types.py | pytypeddict-ts > types.ts
 
