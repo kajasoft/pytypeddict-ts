@@ -48,8 +48,9 @@ We created `pytypeddict-ts` to translate Python TypedDicts across the
 Python-TypeScript boundary. `py-ts-interfaces` translates Dataclasses
 to TypeScript, but not TypedDicts.
 
-We're using `pytypeddict-ts` in production on [instantwatcher.com][3],
-which has a Django backend and TypeScript frontend for search.
+We're using `pytypeddict-ts` in production on the streaming search
+engine [instantwatcher.com][3], which has a Django backend and
+TypeScript frontend code for search.
 
 [3]:https://www.instantwatcher.com
 
