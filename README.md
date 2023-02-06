@@ -1,5 +1,5 @@
 # pytypeddict-ts
-### Python TypedDicts to TypeScript translator
+### Python TypedDict to TypeScript translator
 
 Translate Python 3.10+ TypedDict definitions into TypeScript type
 definitions from the command line.
