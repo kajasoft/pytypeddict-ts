@@ -52,8 +52,8 @@ TypedDict.
 [typeddict]:https://peps.python.org/pep-0589/
 [dataclass]:https://peps.python.org/pep-0557/
 
-We're using `pytypeddict-ts` in production on the streaming search
-engine [instantwatcher.com][3], which has a Django backend and
+We're using `pytypeddict-ts` in production on the streaming video
+search engine [instantwatcher.com][3], which has a Django backend and
 TypeScript frontend code for search.
 
 [3]:https://www.instantwatcher.com
