@@ -132,7 +132,7 @@ e.g.,
       sed -n '/^class Title/,/^ *$/ p' types.py 
     } | pytypeddict-ts
 
-We incorporate this shell script code into a Makefile, which ensures
+We invoke this shell script from a Makefile, which ensures
 that we regenerates the appropriate TypeScript file only when the
 matching Python source file changes.
 
